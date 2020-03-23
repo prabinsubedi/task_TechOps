@@ -1,5 +1,5 @@
 Task For TechOps
 Uses python3
 
-Begin with: pip3 install requirements.txt
+Begin With: pip3 -r install requirements.txt
 
