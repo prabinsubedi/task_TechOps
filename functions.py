@@ -18,7 +18,7 @@ def convert_html_json(table):
 # Initialize a Dictionary  
 time_slot = collections.defaultdict(list)
 
-# Function To Created the Dictionary free time slot from Json File
+# Function To Create the Dictionary free time slot from Json File
 def free_time_slots(data):
 	for item in data:
 		time = item.get('Time')
