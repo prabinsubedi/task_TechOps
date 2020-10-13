@@ -1,5 +1,9 @@
-Task For TechOps
-Uses python3
 
+Clone the repository
+To run on your system
+Uses python3
 Begin With: pip3 -r install requirements.txt
 
+To RUN on Docker container 
+docker build -t yourImagename:yourTag 
+docker run -d -p 5000:5000 yourImagename:yourTag
